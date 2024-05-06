@@ -1,0 +1,189 @@
+.container00 {
+  &.container01 {
+    background-color: #0a2632;
+  }
+
+  &.container02 {
+    background-color: #faf9fa;
+    //background-image: url(../../images/home/Path5.png);
+  }
+
+  &.container03 {
+    background-color: #faf9fa;
+  }
+}
+
+.titlePadding {
+  padding-top: 60px;
+}
+
+.titleContainer01 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  margin-left: -50px;
+}
+
+.subTitleContainer01 {
+  font-family: "Epilogue", sans-serif;
+  font-style: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: -50px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+.imageEllipse {
+  width: 610px;
+  height: 610px;
+  margin-top: -59px;
+  margin-left: 50px;
+}
+
+.imageAgricultura01 {
+  width: 212px;
+  height: 120px;
+  top: 751px !important;
+  left: 765px !important;
+  border-radius: 5px;
+  border: 2px solid #faf9fa;
+  margin-right: 10px;
+}
+.imageAgricultura02 {
+  width: 212px;
+  height: 120px;
+  top: 751px;
+  left: 765px;
+  border-radius: 5px;
+  border: 2px solid #faf9fa;
+  margin-right: 10px;
+}
+
+.imageAgricultura03 {
+  width: 212px;
+  height: 120px;
+  top: 751px;
+  left: 765px;
+  border-radius: 5px;
+  border: 2px solid #faf9fa;
+  margin-right: 10px;
+}
+
+.imageAgricultura04 {
+  width: 212px;
+  height: 120px;
+  top: 751px;
+  left: 765px;
+  border-radius: 5px;
+  border: 2px solid #faf9fa;
+  margin-right: 10px;
+}
+
+.imagesFooter {
+  margin-top: -191px;
+  margin-left: 88px;
+}
+
+.titleContainer02 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 77.4px;
+  color: #102834;
+}
+
+.subTitleContainer02 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #010001;
+}
+
+.imageGroup {
+  width: 267px;
+  height: 286px;
+}
+
+.containerImageGroup {
+  margin-top: 107px;
+}
+
+.btn {
+  margin-left: -50px;
+}
+
+.navbar-collapse {
+  justify-content: space-around;
+  margin-left: 500px;
+}
+
+.header {
+  margin-right: -45px;
+}
+
+.imageContainer02Footer {
+  margin-top: 120px;
+  margin-left: -99px;
+  background-color: #faf9fa;
+}
+
+.titleContainer03 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 77.4px;
+  color: #102834;
+  width: 17%;
+  //margin-right: 750px;
+}
+
+.subTitleContainer03 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #010001;
+}
+
+.icon-container03-01 {
+  width: 48px;
+  height: 39.11px;
+}
+
+.table-title {
+  color: #00af5c;
+}
+
+.button-table {
+  width: 256px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.button-table-text {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 44.4px;
+
+  color: #111111;
+  text-align: center;
+}
+
+.lineBeforeTitle {
+  //position: absolute;
+  width: 90%; /* Ajuste conforme necessário */
+  border: 2px solid rgb(16, 40, 52); /* Escolha a cor e o estilo da linha desejados */
+  //margin-top: -10px; /* Ajuste conforme necessário */
+  margin-top: -51px;
+  margin-left: 174px;
+}
