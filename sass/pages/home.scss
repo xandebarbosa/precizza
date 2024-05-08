@@ -4,12 +4,20 @@
   }
 
   &.container02 {
-    background-color: #faf9fa;
+    background-color: #ffffff;
     //background-image: url(../../images/home/Path5.png);
   }
 
   &.container03 {
-    background-color: #faf9fa;
+    background-color: #ffffff;
+  }
+
+  &.container04 {
+    background-color: #ffffff;
+  }
+
+  &.container05 {
+    background-color: #e6f4f2;
   }
 }
 
@@ -186,4 +194,107 @@
   //margin-top: -10px; /* Ajuste conforme necessário */
   margin-top: -51px;
   margin-left: 174px;
+}
+
+.titleContainer04 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 77.4px;
+  color: #102834;
+  width: 17%;
+  //margin-right: 750px;
+}
+
+.subTitleContainer04 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #010001;
+  margin-bottom: 40px;
+}
+
+.lineBeforeTitleContainer04 {
+  width: 95%; /* Ajuste conforme necessário */
+  border: 2px solid #102834; /* Escolha a cor e o estilo da linha desejados */
+  margin-top: -51px;
+  margin-left: 105px;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #010001;
+  margin-left: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.card-body {
+  display: flex;
+  margin-left: -14px;
+  margin-top: -2px;
+  margin-right: -16px;
+}
+
+.btn-card {
+  width: 52px;
+  height: 52px;
+  font-family: "Inte", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 27px;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #102834;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  width: 283px;
+  height: 216px;
+  border-radius: 5px;
+}
+
+.container04-container-card {
+  display: flex;
+  gap: 7px;
+}
+
+.titleContainer05 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 77.4px;
+  color: #102834;
+  width: 17%;
+  //margin-right: 750px;
+}
+
+.subTitleContainer05 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2b2849;
+  margin-bottom: 40px;
+}
+
+.dadosFeedback {
+  margin-top: 70px;
+  //display: flex;
+}
+
+.dadosDoFeedback {
+  display: inline;
+}
+
+.shortTitle {
+  justify-content: center;
 }
