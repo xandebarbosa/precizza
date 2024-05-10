@@ -19,6 +19,14 @@
   &.container05 {
     background-color: #e6f4f2;
   }
+
+  &.container06 {
+    background-color: #102834;
+  }
+}
+
+.container {
+  margin-left: 136px;
 }
 
 .titlePadding {
@@ -28,15 +36,15 @@
 .titleContainer01 {
   font-family: "Roboto Slab", sans-serif;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 70px;
+  line-height: 84px;
   margin-left: -50px;
 }
 
 .subTitleContainer01 {
   font-family: "Epilogue", sans-serif;
-  font-style: 400;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 27px;
   margin-left: -50px;
 }
@@ -52,15 +60,15 @@
 }
 
 .imageEllipse {
-  width: 610px;
-  height: 610px;
+  width: 909px;
+  height: 909px;
   margin-top: -59px;
-  margin-left: 50px;
+  margin-left: 388px;
 }
 
 .imageAgricultura01 {
-  width: 212px;
-  height: 120px;
+  width: 280px;
+  height: 166px;
   top: 751px !important;
   left: 765px !important;
   border-radius: 5px;
@@ -68,8 +76,8 @@
   margin-right: 10px;
 }
 .imageAgricultura02 {
-  width: 212px;
-  height: 120px;
+  width: 280px;
+  height: 166px;
   top: 751px;
   left: 765px;
   border-radius: 5px;
@@ -78,8 +86,8 @@
 }
 
 .imageAgricultura03 {
-  width: 212px;
-  height: 120px;
+  width: 280px;
+  height: 166px;
   top: 751px;
   left: 765px;
   border-radius: 5px;
@@ -88,8 +96,8 @@
 }
 
 .imageAgricultura04 {
-  width: 212px;
-  height: 120px;
+  width: 280px;
+  height: 166px;
   top: 751px;
   left: 765px;
   border-radius: 5px;
@@ -98,8 +106,8 @@
 }
 
 .imagesFooter {
-  margin-top: -191px;
-  margin-left: 88px;
+  margin-top: -234px;
+  margin-left: 333px;
 }
 
 .titleContainer02 {
@@ -118,16 +126,25 @@
 }
 
 .imageGroup {
-  width: 267px;
-  height: 286px;
+  width: 326px;
+  height: 378px;
 }
 
 .containerImageGroup {
   margin-top: 107px;
 }
 
+.nav-item {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16.4px;
+}
+
 .btn {
   margin-left: -50px;
+  width: 256px;
+  height: 48px;
 }
 
 .navbar-collapse {
@@ -141,7 +158,7 @@
 
 .imageContainer02Footer {
   margin-top: 120px;
-  margin-left: -99px;
+  margin-left: -160px;
   background-color: #faf9fa;
 }
 
@@ -287,7 +304,8 @@
 }
 
 .dadosFeedback {
-  margin-top: 70px;
+  margin-top: 60px;
+  margin-left: 72px;
   //display: flex;
 }
 
@@ -296,5 +314,70 @@
 }
 
 .shortTitle {
-  justify-content: center;
+  text-align: justify;
+  width: 93%;
+  padding-left: 70px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2b2849;
+}
+
+.carousel {
+  width: $carousel-control-width;
+  margin-left: 77px;
+  height: 300px;
+}
+
+.carousel-control-prev {
+  margin-left: -40px;
+}
+
+.carousel-control-next {
+  margin-right: -40px;
+}
+
+.carousel-indicators {
+  margin-bottom: -6px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: -10px;
+  left: 185px;
+  text-align: start;
+}
+
+.textFeedback {
+  margin-top: 25px;
+}
+
+.titleAutorFeedback {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  //margin-top: 5px;
+}
+
+.subTitleAutorFeedback {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-top: -19px;
+}
+
+.imageFooterContainer05 {
+  width: 780px;
+  height: 165px;
+  border-radius: 5px;
+  border: 2px solid #e6f4f2;
+}
+
+.containerImageFooter {
+  margin-top: -144px;
+  margin-left: 300px;
+  margin-bottom: 140px;
 }
