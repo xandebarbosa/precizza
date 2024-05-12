@@ -80,6 +80,7 @@
 }
 .container00.container04 {
   background-color: #ffffff;
+  margin-bottom: 140px;
 }
 .container00.container05 {
   background-color: #e6f4f2;
@@ -90,6 +91,14 @@
 
 .container {
   margin-left: 136px;
+}
+
+.container-title-03 {
+  padding-top: 140px;
+}
+
+.container-title-04 {
+  padding-top: 290px;
 }
 
 .titlePadding {
@@ -114,7 +123,7 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-top: 30px;
 }
 
 .mediumTitle {
@@ -195,7 +204,7 @@
 }
 
 .containerImageGroup {
-  margin-top: 107px;
+  row-gap: 21px;
 }
 
 .nav-item {
@@ -240,6 +249,7 @@
   font-size: 24px;
   line-height: 36px;
   color: #010001;
+  margin-bottom: 55px;
 }
 
 .icon-container03-01 {
@@ -247,8 +257,58 @@
   height: 39.11px;
 }
 
+.custom-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-table th {
+  padding: 20px;
+  background-color: #87B3CA;
+  border: 1px solid white;
+}
+
+.custom-table th:last-child,
+.custom-table td:last-child {
+  border-right-color: transparent;
+}
+
+.custom-table th img,
+.custom-table td img {
+  width: 100%;
+  height: auto;
+}
+
+.custom-table th:nth-last-child(2) img,
+.custom-table td:nth-last-child(2) img {
+  border-bottom-color: #00af5c;
+}
+
+.custom-table .table-title {
+  font-size: 22px;
+  text-align: start;
+}
+
+.custom-table tbody tr:last-child td {
+  text-align: left;
+  font-size: 18px;
+}
+
 .table-title {
   color: #00af5c;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 32px !important;
+  line-height: 27px;
+}
+
+.table-subTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
 }
 
 .button-table {
@@ -287,7 +347,7 @@
   font-size: 24px;
   line-height: 36px;
   color: #010001;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .lineBeforeTitleContainer04 {
@@ -300,11 +360,12 @@
 .card-text {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 20px;
   color: #010001;
   margin-left: 12px;
-  margin-top: 5px;
+  margin-top: 24px;
+  margin-right: 5px;
   text-align: left;
 }
 
@@ -316,34 +377,40 @@
 }
 
 .btn-card {
-  width: 52px;
-  height: 52px;
+  width: 98px;
+  height: 98px;
   font-family: "Inte", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 26px;
   color: #ffffff;
   line-height: 27px;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #102834;
 }
 
 .card {
   border: none;
+  width: 480px;
+  height: 465px;
 }
 
 .card-img-top {
-  width: 283px;
-  height: 216px;
+  width: 440px;
+  height: 335px;
   border-radius: 5px;
+  padding-right: 18px;
 }
 
 .container04-container-card {
   display: flex;
-  gap: 7px;
 }
 
-.titleContainer05 {
+.content-container-05 {
+  margin-top: 90px;
+}
+
+.titleContainer-05 {
   font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -352,7 +419,7 @@
   width: 17%;
 }
 
-.subTitleContainer05 {
+.subTitleContainer-05 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -362,7 +429,7 @@
 }
 
 .dadosFeedback {
-  margin-top: 60px;
+  margin-top: 28px;
   margin-left: 72px;
 }
 
@@ -387,7 +454,7 @@
 }
 
 .carousel-control-prev {
-  margin-left: -40px;
+  margin-left: -60px;
 }
 
 .carousel-control-next {
@@ -433,8 +500,43 @@
 
 .containerImageFooter {
   margin-top: -144px;
-  margin-left: 300px;
+  margin-left: 390px;
   margin-bottom: 140px;
+}
+
+.titleContainer-06 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 77.4px;
+  align-items: center;
+  color: #E6F4F2;
+  margin-bottom: -26px;
+  margin-left: 116px;
+}
+
+.btnContainer-06 {
+  width: 323px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ECCA5E;
+  margin-left: 546px;
+}
+
+.titleBtnContainer06 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 42px;
+  align-items: center;
+  color: #000000;
+}
+
+.lineContainer06 {
+  width: 98%; /* Ajuste conforme necessário */
+  border: 1px solid #00AF5C; /* Escolha a cor e o estilo da linha desejados */
+  margin-top: 120px;
+  margin-left: 81px;
 }
 
 /*# sourceMappingURL=style.css.map */
